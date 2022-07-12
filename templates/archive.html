@@ -1,0 +1,62 @@
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:group -->
+<div class="wp-block-group"><!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":"20px"}}} -->
+<div class="wp-block-columns"><!-- wp:column {"width":"70%"} -->
+<div class="wp-block-column" style="flex-basis:70%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0px","right":"20px","bottom":"0px","left":"20px"}}}} -->
+<div class="wp-block-group" style="padding-top:0px;padding-right:20px;padding-bottom:0px;padding-left:20px"><!-- wp:query-title {"type":"archive"} /-->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:query {"queryId":1,"query":{"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","sticky":"","perPage":10},"displayLayout":{"type":"list"}} -->
+<div class="wp-block-query"><!-- wp:post-template -->
+<!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:post-date {"style":{"color":{"text":"#777777"},"typography":{"fontSize":"11px"}}} /-->
+
+<!-- wp:post-featured-image /-->
+
+<!-- wp:post-excerpt /-->
+
+<!-- wp:group {"layout":{"type":"flex","allowOrientation":false,"justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"color":{"text":"#666666"},"typography":{"fontSize":"12px"}}} -->
+<p class="has-text-color" style="color:#666666;font-size:12px">Tags:</p>
+<!-- /wp:paragraph -->
+
+
+<!-- wp:post-terms {"term":"post_tag","style":{"typography":{"fontSize":"12px"}}} /-->
+<!-- wp:paragraph {"style":{"color":{"text":"#666666"},"typography":{"fontSize":"12px"}}} -->
+<p class="has-text-color" style="color:#666666;font-size:12px">| Posted in:</p>
+<!-- /wp:paragraph -->
+
+
+<!-- wp:post-terms {"term":"category","style":{"typography":{"fontSize":"12px"}}} /-->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"11px"},"color":{"text":"#666666"}}} -->
+<p class="has-text-color" style="color:#666666;font-size:11px">| Comments </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:post-comments-count /--></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":40} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"30%"} -->
+<div class="wp-block-column" style="flex-basis:30%">
+	<!-- wp:template-part {"slug":"sidebar","tagName":"sidebar"} /-->
+</div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:template-part {"slug":"footer"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->

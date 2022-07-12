@@ -1,0 +1,26 @@
+{
+	"version": 2,
+	"patterns": [
+		"footer-text"
+	],
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "840px",
+			"padding": "20px",
+			"wideSize": "1100px"
+		}
+	},
+	"templateParts": [
+		{
+			"name": "header",
+			"title": "Header with Text",
+			"area": "header"
+		},
+		{
+			"name": "footer-text",
+			"title": "Footer with Text",
+			"area": "footer"
+		}
+	]
+}
